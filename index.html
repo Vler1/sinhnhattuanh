@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chuyển hướng...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+            text-align: center;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: scale(0.8); }
+            to { opacity: 1; transform: scale(1); }
+        }
+    </style>
+    <script>
+        setTimeout(function() {
+            window.location.href = "https://vler1.github.io/upload/"; // Đổi thành trang chính của bạn
+        }, 15000); // Chuyển sau 15 giây
+    </script>
+</head>
+<body>
+    <div class="container">
+        <p>Đang chuyển hướng tới sự kiện đặc biệt , vui lòng đợi sau cụ thể giây là..15s</p>
+    </div>
+</body>
+</html>
